@@ -11,7 +11,7 @@ const isPublicRoute = createRouteMatcher([
 //createRouteMatcher creates a function that allows us to lookup if a given request matches one of the defined routes
 
 const isPublicApiRoute = createRouteMatcher([
-  "/api/videos"
+  "/api/video"
 ]);
 
 export default clerkMiddleware((auth, req) => {
